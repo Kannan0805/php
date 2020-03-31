@@ -1,0 +1,299 @@
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 ~
+$ cd/D
+bash: cd/D: No such file or directory
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 ~
+$ cd
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 ~
+$ cd D:/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d (master)
+$ ls
+'$RECYCLE.BIN'/
+ abc/
+ animation/
+'appa mobile'/
+ B8359FBF887C
+'Budget App'/
+'CS 8582 OOAD Lab Record Updated as on 20.09.2019.doc'
+'Downloads 04-03-2020'/
+ java/
+'Kannan Mini-Project Report.doc'
+'Mini-Proj Review ppt for Anna univ Exam.ppt'
+'MINI-PROJECT SAMPLE FINAL REPORT.pdf'
+ movies/
+'My Projects'/
+'n - Copy.zip'
+ NetBeansProjects/
+'New folder'/
+ photos/
+ pictures/
+ python/
+ sample/
+'System Volume Information'/
+ update/
+ v/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d (master)
+$ cd sample
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git config --global user.name "Kannan0805"
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git config --global user.email "mkannanvinayak@gmail.com"
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git clone https://github.com/Kannan0805/php.git
+Cloning into 'php'...
+warning: You appear to have cloned an empty repository.
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git init
+Initialized empty Git repository in D:/sample/.git/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        php/
+        pro/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git remote add origin https://github.com/Kannan0805/php.git
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Kannan0805/php.git'
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git add pro
+warning: LF will be replaced by CRLF in pro/jquery.passwordstrength.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pro/sample.sql.
+The file will have its original line endings in your working directory
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ ls
+php/  pro/  pro.rar
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git add pro.rar
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   pro.rar
+        new file:   pro/apply.php
+        new file:   pro/css/eg.css
+        new file:   pro/css/reg.css
+        new file:   pro/css/style.css
+        new file:   pro/eg.html
+        new file:   pro/eg.php
+        new file:   pro/job.php
+        new file:   pro/jobcomplete.php
+        new file:   pro/jobprovider.php
+        new file:   pro/jobseeker.php
+        new file:   pro/jquery.passwordstrength.js
+        new file:   pro/newproviderreg.php
+        new file:   pro/next.php
+        new file:   pro/next1.php
+        new file:   pro/postjob.php
+        new file:   pro/qw.php
+        new file:   pro/register.php
+        new file:   pro/sample.sql
+        new file:   pro/vacantjob.php
+        new file:   pro/view.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        php/
+
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Kannan0805/php.git'
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ ls
+php/  pro/  pro.rar
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ cd pro
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample/pro (master)
+$ ls
+apply.php  jobcomplete.php             next.php      sample.sql
+css/       jobprovider.php             next1.php     sample.txt.txt
+eg.html    jobseeker.php               postjob.php   vacantjob.php
+eg.php     jquery.passwordstrength.js  qw.php        view.php
+job.php    newproviderreg.php          register.php
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample/pro (master)
+$ cd..
+bash: cd..: command not found
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample/pro (master)
+$ cd D:/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d (master)
+$ cd sample
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ cd pro
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample/pro (master)
+$ ls
+apply.php  jobcomplete.php             next.php      sample.sql
+css/       jobprovider.php             next1.php     sample.txt.txt
+eg.html    jobseeker.php               postjob.php   vacantjob.php
+eg.php     jquery.passwordstrength.js  qw.php        view.php
+job.php    newproviderreg.php          register.php
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample/pro (master)
+$ cd D:/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d (master)
+$ ls
+'$RECYCLE.BIN'/
+ abc/
+ animation/
+'appa mobile'/
+ B8359FBF887C
+'Budget App'/
+'CS 8582 OOAD Lab Record Updated as on 20.09.2019.doc'
+'Downloads 04-03-2020'/
+ java/
+'Kannan Mini-Project Report.doc'
+'Mini-Proj Review ppt for Anna univ Exam.ppt'
+'MINI-PROJECT SAMPLE FINAL REPORT.pdf'
+ movies/
+'My Projects'/
+'n - Copy.zip'
+ NetBeansProjects/
+'New folder'/
+ photos/
+ pictures/
+ python/
+ sample/
+'System Volume Information'/
+ update/
+ v/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d (master)
+$ cd sample
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ ls
+php/  pro/  pro.rar
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git imit
+git: 'imit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git init
+Reinitialized existing Git repository in D:/sample/.git/
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git remote add https://github.com/Kannan0805/php.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git remote -v
+origin  https://github.com/Kannan0805/php.git (fetch)
+origin  https://github.com/Kannan0805/php.git (push)
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git add .
+error: 'php/' does not have a commit checked out
+fatal: adding files failed
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git commit -m "First Commit"
+[master (root-commit) f844a4e] First Commit
+ 21 files changed, 1835 insertions(+)
+ create mode 100644 pro.rar
+ create mode 100644 pro/apply.php
+ create mode 100644 pro/css/eg.css
+ create mode 100644 pro/css/reg.css
+ create mode 100644 pro/css/style.css
+ create mode 100644 pro/eg.html
+ create mode 100644 pro/eg.php
+ create mode 100644 pro/job.php
+ create mode 100644 pro/jobcomplete.php
+ create mode 100644 pro/jobprovider.php
+ create mode 100644 pro/jobseeker.php
+ create mode 100644 pro/jquery.passwordstrength.js
+ create mode 100644 pro/newproviderreg.php
+ create mode 100644 pro/next.php
+ create mode 100644 pro/next1.php
+ create mode 100644 pro/postjob.php
+ create mode 100644 pro/qw.php
+ create mode 100644 pro/register.php
+ create mode 100644 pro/sample.sql
+ create mode 100644 pro/vacantjob.php
+ create mode 100644 pro/view.php
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$ git push origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 43.09 KiB | 2.27 MiB/s, done.
+Total 25 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/Kannan0805/php.git
+ * [new branch]      master -> master
+
+KAMALA KANNAN MOHAN@Feurie MINGW64 /d/sample (master)
+$
